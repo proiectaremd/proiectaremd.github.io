@@ -6,10 +6,12 @@
 
 /* Global Styles */
 
-html,
-body {
-    height: 100%;
-}
+body {background: url(../images/project_papper.png) fixed;font-size: 15px;line-height: 1.6em;font-weight: 400;}
+html, body {width:100%; padding:0; margin:0; height: 100%}
+
+html { -webkit-text-size-adjust: none;}
+.video embed,.video object,.video iframe { width: 100%;  height: auto;}
+img{max-width:100%; height: auto;width: auto\9; /* ie8 */}
 
 body {
     padding-top: 50px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
@@ -62,32 +64,17 @@ header.carousel .fill {
 }
 
 /* 404 Page Styles */
+#page-content{padding: 0;}
+#page-content.index-page, #page-content.single-page, #page-content.archive-page{margin-top: 20px;}
 
 .error-404 {
     font-size: 100px;
 }
+.featured{background-color: #fff;padding: 15px ;border: 1px solid #ddd;}
 
-/* Pricing Page Styles */
-
-.price {
-    display: block;
-    font-size: 50px;
-    line-height: 50px;
-}
-
-.price sup {
-    top: -20px;
-    left: 2px;
-    font-size: 20px;
-}
-
-.period {
-    display: block;
-    font-style: italic;
-}
  .navbar {
+      background: url(../images/inflicted.png) fixed;
       margin-bottom: 0;
-      background-color: #000000;
       z-index: 9999;
       border: 0;
       letter-spacing: 1.5px;
@@ -101,9 +88,35 @@ header.carousel .fill {
   }
   .navbar-nav li a:hover, .navbar-nav li.active a {
       color: #000000 !important;
-      background-color: #fff !important;
+      background: url(../images/project_papper.png) fixed !important;}
+
 
 /* Footer Styles */
+
+@media all and (min-width: 768px) {
+  .navbar-fixed-width {
+    width: 750px;
+    margin-left: auto;
+    margin-right:auto;
+ }
+}
+
+@media all and (min-width: 992px) {
+  .navbar-fixed-width {
+    width: 980px;
+    margin-left: auto;
+    margin-right:auto;
+  }
+
+}
+
+@media all and (min-width: 1200px) {
+  .navbar-fixed-width {
+    width: 1170px;
+    margin-left: auto;
+    margin-right:auto;
+  }
+}
 
 footer {
     margin: 50px 0;
