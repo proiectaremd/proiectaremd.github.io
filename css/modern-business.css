@@ -98,7 +98,7 @@ blue{
 #menu ul.top-social{margin: 0;}
 #menu ul.top-social  li{height: inherit; width: 30px; }
 #menu ul.top-social a i{color: #fff;line-height: 1.9;height: inherit; width: 30px;}
-#menu ul.top-social a i:hover{background: url(../images/project_papper.png); color: #000;}
+#menu ul.top-social a i:hover{ color: #387db8;}
 
 /* 404 Page Styles */
 #page-content{padding: 0;}
