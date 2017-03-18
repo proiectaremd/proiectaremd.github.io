@@ -11,6 +11,9 @@
 
     <title>Yurie Domentiuc</title>
 
+    <!-- Zoom CSS -->
+     <link rel="stylesheet" type="text/css" href="css/zoom.css">
+
     <!-- Bootstrap Core CSS -->
     <link href="css/bootstrap.css" rel="stylesheet">
 
@@ -18,7 +21,6 @@
     <link href="css/modern-business.css" rel="stylesheet">
 
     <!-- Custom Fonts -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
@@ -33,7 +35,7 @@
 <body>
 
     <!-- Navigation -->
-    <nav class="navbar navbar-inverse navbar-fixed-top navbar-fixed-width" role="navigation">
+    <nav id = "menu" class="navbar navbar-inverse navbar-fixed-top navbar-fixed-width" role="navigation">
         <div class="container">
             <!-- Brand and toggle get grouped for better mobile display -->
             <div class="navbar-header">
@@ -61,12 +63,14 @@
                         <a href="contact.html">Contacte</a>
                     </li>
                 </ul>
-                <ul class="nav navbar-nav navbar-right">
-                <li><a href = "#">Sună: 067 677 606</a></li>
+
+                <ul class="list-inline navbar-right top-social">
+               <!-- <li><a href = "#">Sună:067677606</a></li>-->
                 <li><a href="https://www.facebook.com/Proiectecasemoldova"><i class="fa fa-facebook"></i></a></li>
                 <li><a href="https://www.linkedin.com/in/iurie-domentiuc-3084a145"><i class="fa fa-linkedin"></i></a></li>
                 <li><a href="mailto:domentiuc@mail.ru?Subject=Hello%20again"><i class="fa fa-envelope-o"></i></a></li>
                 <li><a href="skype:domentiuc.iurie?userinfo"><i class="fa fa-skype"></i></a></li>
+
              </ul>
             </div>
             <!-- /.navbar-collapse -->
@@ -74,78 +78,39 @@
         <!-- /.container -->
     </nav>
 
-<div class ="featured container">   
- <div class="row"> 
-   <div class = "col-md-8">    
+<div class ="featured container">
+ <div class="row">
+   <div class = "col-md-8">
 <!-- 4:3 aspect ratio -->
 <div class="embed-responsive embed-responsive-16by9">
   <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/iHZ6C6kPhSo"></iframe>
 </div>
 </div>
-<div class="col-md-4"> 
+<div class="col-md-4">
 <div class="panel panel-default" style="margin-bottom:0px;">
                     <div class="panel-heading">
-                        <h3 style=" margin:4px; color:black"><i class="fa fa-fw fa-check"></i><b>Consultare gratuită!</b></h3>
+                        <h3 style=" margin:4px ; color:black"><i class="fa fa-fw fa-check"></i><b>Consultare gratuită!</b></h3>
                     </div>
                     <div class="panel-body">
                         <h4>Pentru orice întrebare ne puteți contacta telefonic, prin email sau rețele sociale:</h4>
-                    <h3 style=" margin:13px"><img src="images/icons/mob.png">&nbsp&nbsp 067 677 606</a></h3>
-                    <h3 style=" margin:13px"><img src="images/icons/mail.png">&nbsp&nbsp domentiuc@mail.ru</a></h3>
-                    <h3 style=" margin:13px"><img src="images/icons/skype.png">&nbsp&nbsp domentiuc.iurie</a></h3>
-                    <h3 style=" margin:13px"><img src="images/icons/fb.png">&nbsp&nbsp <a href="https://www.facebook.com/Proiectecasemoldova">Proiecte Case MD</a></h3>
-                    <h3 style=" margin:13px"><img src="images/icons/in.png">&nbsp&nbsp <a href="https://www.linkedin.com/in/iurie-domentiuc-3084a145">Domentiuc Iurie</a></h3>
-                
+                    <h3 style="margin-top:13px"><img src="images/icons/mob.png">&nbsp 067 677 606</a></h3>
+                    <h3 style="margin-top:13px"><img src="images/icons/mail.png">&nbsp domentiuc@mail.ru</a></h3>
+                    <h3 style="margin-top:13px"><img src="images/icons/skype.png">&nbsp domentiuc.iurie</a></h3>
+                    <h3 style="margin-top:13px"><img src="images/icons/fb.png">&nbsp <a href="https://www.facebook.com/Proiectecasemoldova">Proiecte Case MD</a></h3>
+                    <h3 style="margin-top:13px"><img src="images/icons/in.png">&nbsp <a href="https://www.linkedin.com/in/iurie-domentiuc-3084a145">Domentiuc Iurie</a></h3>
+
                     </div>
                 </div>
   </div>
   </div>
 </div>
-<!-- 4:3 aspect ratio -->
-    <!-- Header Carousel -->
-<!--     <header id="myCarousel" class="carousel slide">
-       
-        <ol class="carousel-indicators">
-            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-            <li data-target="#myCarousel" data-slide-to="1"></li>
-            <li data-target="#myCarousel" data-slide-to="2"></li>
-        </ol>
 
-      
-        <div class="carousel-inner">
-            <div class="item active">
-                <div class="fill" style="background-image:url('images/1.jpg');"></div>
-                <div class="carousel-caption">
-                    <h2>Imaginea 1</h2>
-                </div>
-            </div>
-            <div class="item">
-                <div class="fill" style="background-image:url('D:/Photos/imagini/4.jpg');"></div>
-                <div class="carousel-caption">
-                    <h2>Imaginea 2</h2>
-                </div>
-            </div>
-            <div class="item">
-                <div class="fill" style="background-image:url('http://placehold.it/1900x1080&text=Imaginea 3');"></div>
-                <div class="carousel-caption">
-                    <h2>Imaginea 3</h2>
-                </div>
-            </div>
-        </div> 
-
-        
-        <a class="left carousel-control" href="#myCarousel" data-slide="prev">
-            <span class="icon-prev"></span>
-        </a>
-        <a class="right carousel-control" href="#myCarousel" data-slide="next">
-            <span class="icon-next"></span>
-        </a>
-    </header>-->
 
     <!-- Page Content -->
     <div class="featured container">
 
         <!-- Marketing Icons Section -->
-       
+
         <!-- /.row -->
 
         <!-- Portfolio Section -->
@@ -154,73 +119,76 @@
                 <h2 class="page-header" style=" margin:0px;text-align:center">Proiectarea caselor individuale</h2>
             </div>
             <div class="col-lg-12">
-                <h5 style="margin: 15px; text-align:justify">Casa în care vă veți simți cu adevărat împliniți și fericiți este cea care va fi proiectată după propriile preferințe si nevoi. Un proiect calitativ, profesionist nu poate fi ieftin (300-400 euro) deoarece necesită mult timp, calcule și o detalizare minuțioasă. Optați pentru o proiectare tridimensională​ deoarece numai așa veti obține produsul așteptat și calitativ!</h5>
+                <h5 style="margin: 15px;">Casa în care vă veți simți cu adevărat împliniți și fericiți este cea care va fi proiectată după propriile preferințe si nevoi. Un proiect calitativ, profesionist nu poate fi ieftin (300-400 euro) deoarece necesită mult timp, calcule și o detalizare minuțioasă. Optați pentru o proiectare tridimensională​ deoarece numai așa veti obține produsul așteptat și calitativ!</h5>
             </div>
             <div class="col-md-6">
-                    <img class="img-responsive img-portfolio  " src="images/casa1.webp" alt="" style="margin-bottom:28px">
+                    <img class="img-responsive img-portfolio" data-action="zoom" src="images/casa1.webp" alt="" style="margin-bottom:28px">
             </div>
             <div class="col-md-6">
-                    <img class="img-responsive img-portfolio  " src="images/casa2.webp" alt="">
+                    <img class="img-responsive img-portfolio" data-action="zoom" src="images/casa2.webp" alt="">
             </div>
             <div class="col-md-6">
-                    <img class="img-responsive img-portfolio  " src="images/casa3.webp" alt="">
+                    <img class="img-responsive img-portfolio" data-action="zoom" src="images/casa3.webp" alt="">
             </div>
             <div class="col-md-6">
-                    <img class="img-responsive img-portfolio  " src="images/casa4.webp" alt="">
+                    <img class="img-responsive img-portfolio" data-action="zoom" src="images/casa4.webp" alt="">
             </div>
         </div>
         <!-- /.row -->
 
         <!-- Features Section -->
-       
+
         <!-- /.row -->
  <div class="row">
             <div class="col-lg-12">
-                <h2 class="page-header" style=" margin-bottom:0px;text-align:center">Proiectarea imobilelor pentru o afacere reușită
+                <h2 class="page-header" style=" margin:0px;text-align:center">Proiectarea imobilelor pentru o afacere reușită
 </h2>
             </div>
             <div class="col-lg-12">
                                 <h5 style="margin: 15px;">Integrarea specificului imobilului în design multiplică valoarea investiţiilor în amenajările interioare și exterioare deoarece comunică corespunzător mesajul pe care vrei să-l transmiţi clienţilor, de la intrarea în local, până la achitarea notei de plată. Promovarea afacerii tale prin design nu este doar un moft cu câteva modificări inteligente ici-colo, ci mai degrabă necesită o abordare de la început până la sfârşit care să includă mesaje relevante în locuri esenţiale. Indiferent de tipul, profilul și categoria unităților, amenajarea/organizarea lor interioară trebuie astfel concepută încît să asigure un flux tehnologic optim pentru circulația clientilor, a personalului, precum și pentru desfășurarea în bune condiții a activităților.</h5>
             </div>
             <div class="col-md-6">
-                    <img class="img-responsive img-portfolio  " src="images/imobile1.webp" alt="" style="margin-bottom:24px">
+                    <img class="img-responsive img-portfolio" src="images/imobile1.webp" data-action="zoom" alt="" style="margin-bottom:24px">
             </div>
             <div class="col-md-6">
-                    <img class="img-responsive img-portfolio  " src="images/imobile2.webp" alt="" >
+                    <img class="img-responsive img-portfolio" src="images/imobile2.webp" data-action="zoom" alt="" >
             </div>
             <div class="col-md-6">
-                    <img class="img-responsive img-portfolio  " src="images/imobile3.webp" alt="">
+                    <img class="img-responsive img-portfolio" src="images/imobile3.webp" data-action="zoom" alt="">
             </div>
             <div class="col-md-6">
-                    <img class="img-responsive img-portfolio  " src="images/imobile4.webp" alt="">
+                    <img class="img-responsive img-portfolio" src="images/imobile4.webp" data-action="zoom" alt="">
             </div>
         </div>
         <div class="row">
             <div class="col-lg-12">
-                <h2 class="page-header" style=" margin-bottom:0px;text-align:center">Proiectarea blocurilor locative</h2>
+                <h2 class="page-header" style=" margin:0px;text-align:center">Proiectarea blocurilor locative</h2>
             </div>
             <div class="col-lg-12">
-                <h5 style="margin: 15px; text-align:justify;">Procurarea unei locuinţe este un pas important în viaţa fiecărui om. Este o achiziţie scumpă şi de lungă durată, de aceia necesită o atitudine foarte responsabilă. La proiectarea blocurilor atenție sporită este acordată siguranței și confortului fiecarui locatar prin utilizarea celor mai noi software de calcul, materiale calitative și accesul la transportul public, şcoli, grădiniţe, farmacii, marketuri, etc.</h5>
+                <h5 style="margin: 15px;">Procurarea unei locuinţe este un pas important în viaţa fiecărui om. Este o achiziţie scumpă şi de lungă durată, de aceia necesită o atitudine foarte responsabilă. La proiectarea blocurilor atenție sporită este acordată siguranței și confortului fiecarui locatar prin utilizarea celor mai noi software de calcul, materiale calitative și accesul la transportul public, şcoli, grădiniţe, farmacii, marketuri, etc.</h5>
             </div>
             <div class="col-md-6">
-                    <img class="img-responsive img-portfolio  " src="images/bloc1.webp" alt="" style="margin-bottom:28px">
+                    <img class="img-responsive img-portfolio " src="images/bloc1.webp"  data-action="zoom" alt="" style="margin-bottom:28px">
             </div>
             <div class="col-md-6">
-                    <img class="img-responsive img-portfolio  " src="images/bloc2.webp" alt="" >
+                    <img class="img-responsive img-portfolio"  src="images/bloc2.webp" data-action="zoom" alt="" >
             </div>
             <div class="col-md-6">
-                    <img class="img-responsive img-portfolio  " src="images/bloc3.webp" alt="">
+                    <img class="img-responsive img-portfolio  " src="images/bloc3.webp" data-action="zoom" alt="">
             </div>
             <div class="col-md-6">
-                    <img class="img-responsive img-portfolio  " src="images/bloc4.webp" alt="">
+                    <img class="img-responsive img-portfolio  " src="images/bloc4.webp" data-action="zoom" alt="">
             </div>
-            <div class="col-md-12">
-                <h3 style="padding: 15px; text-align:justify">
-                        Mulțumirea dumneavoastră este și mulțumirea noastră, de aceea ne vom ocupa cu rigurozitate de indeplinirea oricăror preferințe pe care le aveți pentru ca rezultatul final să fie unul de care vă veți mîndri, cu sigurantă! Împreună vom proiecta casa ideală pentru dumneavoastră și întreaga familie, găsind cele mai optime soluții și analizînd în profunzime fiecare detaliu pentru viitorul strălucit al locuinței de care veți dispune!
-                 </h3>
-            </div>  
         </div>
     </div>
+    <div class="featured container">
+      <div class="row">
+          <h3 class="thank">
+                  <blue>Mulțumirea dumneavoastră</blue> este și mulțumirea noastră, de aceea ne vom ocupa cu rigurozitate de indeplinirea oricăror preferințe pe care le aveți pentru ca rezultatul final să fie unul de care vă veți mîndri, cu sigurantă! Împreună vom proiecta casa ideală pentru dumneavoastră și întreaga familie, găsind cele mai optime soluții și analizînd în profunzime fiecare detaliu pentru viitorul strălucit al locuinței de care veți dispune!
+           </h3>
+      </div>
+    </div>
+
       <div class="featured container">
          <div class="row">
             <div class="col-lg-12">
@@ -232,7 +200,7 @@
                   <div class="embed-responsive embed-responsive-16by9">
                    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/BCFibnzjmkA"></iframe>
                  </div>
-                 <h4>TERMOIZOLAREA MANSARDEI.</h4> 
+                 <h4>TERMOIZOLAREA MANSARDEI.</h4>
                  <p>Pentru a avea o mansardă uscată și calduroasă,
                   respectați următoarele reguli de bază.</p>
             </div>
@@ -240,14 +208,14 @@
                 <div class="embed-responsive embed-responsive-16by9">
                    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/E_GDUEPRsg0"></iframe>
                  </div>
-                 <h4>CUM SĂ EVITĂM CONDENSAREA PE ACOPERIȘ.</h4> 
+                 <h4>CUM SĂ EVITĂM CONDENSAREA PE ACOPERIȘ.</h4>
                  <p>Nu economisiți la realizarea acoperișului.</p>
             </div>
             <div class="col-md-4">
                  <div class="embed-responsive embed-responsive-16by9">
                    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/eMGgOF3LRik"></iframe>
                  </div>
-                 <h4>MONTAJUL CORECT AL FERESTRELOR PVC.</h4> 
+                 <h4>MONTAJUL CORECT AL FERESTRELOR PVC.</h4>
                  <p>Montajul are o importanță majoră în buna funcționare a ferestrei și în pastrarea microclimatului locuinței.</p>
             </div>
         </div>
@@ -307,12 +275,14 @@
     <!-- Bootstrap Core JavaScript -->
     <script src="js/bootstrap.min.js"></script>
 
-    <!-- Script to Activate the Carousel 
+    <!-- Script to Activate the Carousel
     <script>
     $('.carousel').carousel({
         interval: 5000 //changes the speed
+
     })
-    </script>-->
+    </script> Functia zoom-->
+     <script src="js/zoom.js"></script>
 
 </body>
 
