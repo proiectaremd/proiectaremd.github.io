@@ -91,13 +91,13 @@ blue{
     width: 0px;
 }
 #demo.in {
-    width: 130px;
+    width: 128px;
 }
 
 #menu .top-social{padding: 5px;font-size: 20px; text-align: center;}
 #menu ul.top-social{margin: 0;}
-#menu ul.top-social  li{height: 38px; width: 38px; }
-#menu ul.top-social a i{color: #fff;line-height: 1.9;height: 38px; width: 38px;border-radius: 50%;background-color: #252628;}
+#menu ul.top-social  li{height: inherit; width: 30px; }
+#menu ul.top-social a i{color: #fff;line-height: 1.9;height: inherit; width: 30px;}
 #menu ul.top-social a i:hover{background: url(../images/project_papper.png); color: #000;}
 
 /* 404 Page Styles */
