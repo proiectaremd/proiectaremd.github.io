@@ -74,6 +74,25 @@ blue{
   color: #387db8;
   font-weight: bold;
 }
+#demo {
+    -webkit-transition: width 1s ease;
+    -moz-transition: width 1s ease;
+    -o-transition: width 1s ease;
+    transition: width 2s ease;
+
+    display: inline-block;
+    overflow: hidden;
+    white-space: nowrap;
+    vertical-align: middle;
+    line-height: 30px;
+    height: 30px;
+    color: white;
+
+    width: 0px;
+}
+#demo.in {
+    width: 150px;
+}
 
 #menu .top-social{padding: 5px;font-size: 20px; text-align: center;}
 #menu ul.top-social{margin: 0;}
