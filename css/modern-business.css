@@ -62,9 +62,9 @@ header.carousel .fill {
     background-size: cover;
 }
 .thank{
- margin: 60px;
+ margin: 0 80px 40px 80px;
  letter-spacing: 1px;
- font-size: 25px;
+ font-size: 20px;
  line-height: 1.5;
  color: black;
 
@@ -108,7 +108,7 @@ blue{
 .error-404 {
     font-size: 100px;
 }
-.featured{background-color: #fff;padding: 15px ;}
+.featured{background-color: #fff;padding: 15px ; }
 .featured1{background:url(../images/archi.jpg) fixed !important;}
 .thabout{
   padding: 20px 40px 40px 40px;
@@ -153,16 +153,16 @@ hr {
       background: url(../images/project_papper.png) fixed !important;}
 
 /* Menu social contact dreapta */
-
-.carousel {
-    width: 600px;
+.carousel-inner > .item > img {
+    margin: 65px auto;
 }
+
 
 /* Indicators list style */
 .article-slide .carousel-indicators {
-    bottom: 0;
+    top: 0;
     left: 0;
-    margin-left: 5px;
+    margin-left: 160px;
     width: 100%;
 }
 /* Indicators list style */
@@ -198,6 +198,10 @@ hr {
     margin-right:auto;
  }
 }
+@media all and (max-width: 768px){
+#da{
+margin-top: 180px;
+}}
 
 @media all and (min-width: 992px) {
   .navbar-fixed-width {
