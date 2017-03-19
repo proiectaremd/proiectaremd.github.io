@@ -17,13 +17,12 @@ body {
     padding-top: 50px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
 }
 
+h2,
 h3,
 h4,
-h5,
 h6,
 .h3,
 .h4,
-.h5,
 .h6{
     color: #387db8;
 
@@ -63,7 +62,7 @@ header.carousel .fill {
     background-size: cover;
 }
 .thank{
- margin: 20px;
+ margin: 60px;
  letter-spacing: 1px;
  font-size: 25px;
  line-height: 1.5;
@@ -94,11 +93,13 @@ blue{
     width: 128px;
 }
 
-#menu .top-social{padding: 5px;font-size: 20px; text-align: center;}
+
+#menu .top-social{padding: 5px 0 5px 5px;font-size: 20px; text-align: center;}
 #menu ul.top-social{margin: 0;}
 #menu ul.top-social  li{height: inherit; width: 30px; }
 #menu ul.top-social a i{color: #fff;line-height: 1.9;height: inherit; width: 30px;}
-#menu ul.top-social a i:hover{ color: #387db8;}
+#menu ul.top-social a i:hover { color: #387db8;}
+
 
 /* 404 Page Styles */
 #page-content{padding: 0;}
@@ -107,7 +108,31 @@ blue{
 .error-404 {
     font-size: 100px;
 }
-.featured{background-color: #fff;padding: 15px ;border: 1px solid #ddd;}
+.featured{background-color: #fff;padding: 15px ;}
+.featured1{background:url(../images/archi.jpg) fixed !important;}
+.thabout{
+  padding: 20px 40px 40px 40px;
+  font-size: 16px;
+  letter-spacing: 1px;
+  border-radius: 0;
+  margin: 250px 0 0 0;
+  border: 0;
+}
+.thperson{
+  margin-top: 20px;
+  font-size: 16px;
+  letter-spacing: 1px;
+  border-radius: 0;
+  border: 0;
+}
+hr {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 0px;
+    width: 60px;
+    border: 0;
+    border-top: 1px solid #387db8;
+}
 
  .navbar {
       background: url(../images/inflicted.png) fixed;
