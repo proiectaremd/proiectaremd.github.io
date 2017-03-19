@@ -198,10 +198,7 @@ hr {
     margin-right:auto;
  }
 }
-@media all and (max-width: 768px){
-#da{
-margin-top: 180px;
-}}
+
 
 @media all and (min-width: 992px) {
   .navbar-fixed-width {
