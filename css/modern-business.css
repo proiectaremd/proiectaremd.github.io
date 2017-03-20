@@ -123,6 +123,11 @@ blue{
   margin-top: 15px;
 
 }}
+@media all and (max-width: 768px){
+.panel-default{
+  margin-top: 15px;
+}}
+
 .thperson{
   margin-top: 20px;
   font-size: 16px;
@@ -167,8 +172,8 @@ hr {
 .article-slide .carousel-indicators {
     top: 0;
     left: 0;
-    margin-left: 160px;
-    width: 100%;
+    margin-left: 5%;
+    width: 95%;
 }
 /* Indicators list style */
 .article-slide .carousel-indicators li {
@@ -208,6 +213,9 @@ a.nav-proiecte:hover, a.nav-proiecte:focus{
   color: #428BCA;
   text-decoration: none;
 }
+.proiect{
+  text-align: left;
+}
 @media all and (min-width: 768px) {
   .navbar-fixed-width {
     width: 750px;
@@ -215,7 +223,11 @@ a.nav-proiecte:hover, a.nav-proiecte:focus{
     margin-right:auto;
  }
 }
-
+@media (max-width: 992px) {
+  .proiect{
+    text-align: center;
+  }
+}
 @media (min-width: 768px) {
   .nav-proiecte {
     display: none;
