@@ -166,13 +166,22 @@ hr {
 .carousel-inner > .item > img {
     margin: 65px auto;
 }
-
+.carousel-inner{
+  margin-top:60px;
+}
 
 /* Indicators list style */
 .article-slide .carousel-indicators {
     top: 0;
     left:65%;
     width: 50%;
+}
+@media all and (max-width: 768px){
+
+  .article-slide .carousel-indicators {
+      top: -50px;
+      margin-left: -38%;
+  }
 }
 /* Indicators list style */
 .article-slide .carousel-indicators li {
