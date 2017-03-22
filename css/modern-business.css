@@ -171,6 +171,8 @@ hr {
 /* Indicators list style */
 .article-slide .carousel-indicators {
     top: 0;
+    left:40%;
+    width: 75%;
 }
 /* Indicators list style */
 .article-slide .carousel-indicators li {
@@ -210,12 +212,12 @@ hr {
   left:0;
   position: absolute;
   opacity:0.95;
-  background-color:#f6bf01;
+  background-color:#387db8;
 }
 p.portfolio{
-  padding:5px 25px 5px 25px;
+  padding:5px 10px 5px 10px;
   color:white;
-  font-size:16px;
+  font-size:14px;
   letter-spacing: 1.5px;
   margin:0;
 }
