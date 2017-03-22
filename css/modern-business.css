@@ -166,9 +166,12 @@ hr {
 .carousel-inner > .item > img {
     margin: 65px auto;
 }
-.carousel-inner{
-  margin-top:60px;
-}
+@media(max-width: 768px){
+  .carousel-inner{
+  margin-top:50px;
+}}
+
+
 
 /* Indicators list style */
 .article-slide .carousel-indicators {
