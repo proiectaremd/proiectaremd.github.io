@@ -172,7 +172,7 @@ hr {
 .article-slide .carousel-indicators {
     top: 0;
     left:65%;
-    width: 40%;
+    width: 50%;
 }
 /* Indicators list style */
 .article-slide .carousel-indicators li {
