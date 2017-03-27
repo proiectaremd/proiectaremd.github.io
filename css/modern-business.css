@@ -6,6 +6,7 @@
 
 /* Global Styles */
 
+
 body {background: url(../images/project_papper.png) fixed;font-size: 15px;line-height: 1.6em;font-weight: 400;}
 html, body {width:100%; padding:0; margin:0; height: 100%}
 
@@ -14,8 +15,9 @@ html { -webkit-text-size-adjust: none;}
 img{max-width:100%; height: auto;width: auto\9; /* ie8 */}
 
 body {
-    padding-top: 50px;  /*Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes.*/
+/*   padding-top: 50px;   Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes.*/
 }
+
 
 h2,
 h3,
@@ -160,7 +162,8 @@ hr {
   }
   .navbar-nav li a:hover, .navbar-nav li.active a {
       color: #000000 !important;
-      background: url(../images/project_papper.png) fixed !important;}
+      background-color:#fff !important;
+    /*  background: url(../images/project_papper.png) fixed !important;*/}
 
 /* Menu social contact dreapta */
 .carousel-inner > .item > img {
@@ -233,24 +236,43 @@ p.portfolio{
   letter-spacing: 1.5px;
   margin:0;
 }
-
+.nav .open > a, .nav .open > a:hover, .nav .open > a:focus {
+    background-color: #387db8;
+}
 .nav-proiecte{
   position: relative;
-  float: right;
-  margin-top: 13.5px;
-  right: 20px;
-  border: 1px solid transparent;
+  float: left;
   color: white;
+  padding: 15px 30px;
+  font-weight: bold;
+}
+.navproiecte{
+  padding:15px;
+  position:relative;
+  display:block;
+  line-height:20px;
+}
+a.navproiecte:hover, a.navproiecte:focus{
+  text-decoration: none;
 }
 a.nav-proiecte:hover, a.nav-proiecte:focus{
-  color: #428BCA;
   text-decoration: none;
+  background-color: #fff;
+  color: #666666;
+
+}
+.dropproiect{
+  background-color: #387db8;
+  border-radius: 0;
+}
+.dropproiect li a:hover, .dropproiect li a:focus{
+  background-color:#666666;
 }
 .proiect{
   text-align: left;
 }
 @media all and (min-width: 768px) {
-  .navbar-fixed-width {
+  .navbar-fixed-width{
     width: 750px;
     margin-left: auto;
     margin-right:auto;
@@ -262,14 +284,14 @@ a.nav-proiecte:hover, a.nav-proiecte:focus{
   }
 }
 @media (min-width: 768px) {
-  .nav-proiecte {
+  .nav-proiect {
     display: none;
   }
 }
 
 @media all and (min-width: 992px) {
-  .navbar-fixed-width {
-    width: 980px;
+  .navbar-fixed-width{
+    width: 970px;
     margin-left: auto;
     margin-right:auto;
   }
@@ -277,7 +299,7 @@ a.nav-proiecte:hover, a.nav-proiecte:focus{
 }
 
 @media all and (min-width: 1200px) {
-  .navbar-fixed-width {
+  .navbar-fixed-width{
     width: 1170px;
     margin-left: auto;
     margin-right:auto;

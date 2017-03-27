@@ -11,7 +11,7 @@
     <meta name="description" content="Proiectare case">
     <meta name="author" content="Bumbu Tudor">
 
-    <title>Proiecte MD</title>
+    <title>Proiect MD</title>
 
     <!-- Zoom CSS -->
      <link rel="stylesheet" type="text/css" href="css/zoom.css">
@@ -20,7 +20,7 @@
     <link href="css/bootstrap.css" rel="stylesheet">
 
     <!-- Custom CSS -->
-    <link href="css/modern-business.css" rel="stylesheet">
+    <link href="css/modern-business.css" rel="stylesheet"></link>
 
     <!-- Custom Fonts -->
     <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
@@ -32,12 +32,34 @@
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
 
+<style media="screen">
+.affix {
+    top: 0;
+    width: 100%;
+}
+
+
+.affix + .container {
+    padding-top: 70px;
+}
+</style>
 </head>
 
 <body>
 
-    <!-- Navigation -->
-    <nav id = "menu" class="navbar navbar-inverse  navbar-fixed-top navbar-fixed-width" role="navigation">
+    <!-- affix -->
+    <div class="container featured">
+      <div class="row">
+        <div class="col-md-4 text-center">
+          <img src="images/logo.png" alt="">
+        </div>
+        <div class="col-md-4 col-md-offset-4 text-center">
+          <h2><i class="fa fa-phone"><b style="color:#666666; font-family:Verdana">&nbsp 067 677 606</b></i></h2>
+        </div>
+      </div>
+    </div>
+      <!-- Navigation -->
+    <nav id = "menu" class="navbar navbar-inverse navbar-fixed-width" data-spy="affix" role="navigation" data-offset-top="197">
         <div class="container">
 
             <div class="navbar-header">
@@ -48,17 +70,33 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="index.html">PROIECTE<b>MD</b></a>
-                <a href="proiecte.html" class="nav-proiecte">Proiecte</a>
+                <div class="dropdown nav-proiect">
+                    <a href="#" data-toggle="dropdown" class="dropdown-toggle nav-proiecte">Proiecte&nbsp<b class="caret"></b></a>
+                    <ul class="dropdown-menu dropproiect">
+                        <li><a href="proiecte.html">Case Individuale</a></li>
+                        <li><a href="#">Imobile Comerciale</a></li>
+                        <li><a href="#">Blocuri Locative</a></li>
+                    </ul>
+                </div>
             </div>
             <!-- Collect the nav links, forms, and other content for toggling-->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav" >
                     <li>
+                        <a  href="index.html">Acasa</a>
+                    </li>
+                    <li>
                         <a href="despre.html">Despre Birou</a>
                     </li>
                     <li>
-                        <a href="proiecte.html">Proiecte</a>
+                      <div class="dropdown">
+                          <a href="#" data-toggle="dropdown" class="dropdown-toggle navproiecte">Proiecte&nbsp<b class="caret"></b></a>
+                          <ul class="dropdown-menu dropproiect">
+                              <li><a href="proiecte.html">Case Individuale</a></li>
+                              <li><a href="#">Imobile Comerciale</a></li>
+                              <li><a href="#">Blocuri Locative</a></li>
+                          </ul>
+                      </div>
                     </li>
                     <li>
                         <a href="contact.html">Contacte</a>
@@ -67,15 +105,15 @@
 
                 <ul class="list-inline navbar-right top-social">
                <!-- <li><a href = "#">Sună:067677606</a></li>-->
-                <li><a href="https://www.facebook.com/Proiectecasemoldova"><i class="fa fa-facebook"></i></a></li>
-                <li><a href="https://www.linkedin.com/in/iurie-domentiuc-3084a145"><i class="fa fa-linkedin"></i></a></li>
-                <li><a href="mailto:domentiuc@mail.ru?Subject=Hello%20again"><i class="fa fa-envelope-o"></i></a></li>
-                <li><a href="skype:domentiuc.iurie?userinfo"><i class="fa fa-skype"></i></a></li>
-                <li><a href="#demo" data-toggle="collapse"><i class="fa fa-phone"></i></a></li>
-                <div id="demo" class="collapse width">067 677 606</div>
+                  <li><a href="https://www.facebook.com/Proiectecasemoldova"><i class="fa fa-facebook"></i></a></li>
+                  <li><a href="https://www.linkedin.com/in/iurie-domentiuc-3084a145"><i class="fa fa-linkedin"></i></a></li>
+                  <li><a href="mailto:domentiuc@mail.ru?Subject=Hello%20again"><i class="fa fa-envelope-o"></i></a></li>
+                  <li><a href="skype:domentiuc.iurie?userinfo"><i class="fa fa-skype"></i></a></li>
+                  <li><a href="#demo" data-toggle="collapse"><i class="fa fa-phone"></i></a></li>
+                  <div id="demo" class="collapse width">067 677 606</div>
 
+              </ul>
 
-             </ul>
             </div>
             <!-- /.navbar-collapse
         </div>-->
@@ -155,7 +193,7 @@
                     </div>
                     <div class="panel-body">
                         <h4 style="line-height:1.3; color:black;">Pentru orice întrebare ne puteți contacta telefonic, prin email sau rețele sociale:</h4>
-                    <h3 style="margin-top:12px"><img src="images/icons/mob.png">&nbsp 067 677 606</a></h3>
+                    <h3 style="margin-top:12px"><img src="images/icons/viber.png">&nbsp 067 677 606</a></h3>
                     <h3 style="margin-top:12px"><img src="images/icons/mail.png">&nbsp domentiuc@mail.ru</a></h3>
                     <h3 style="margin-top:12px"><img src="images/icons/skype.png">&nbsp domentiuc.iurie</a></h3>
                     <h3 style="margin-top:12px"><img src="images/icons/fb.png">&nbsp <a href="https://www.facebook.com/Proiectecasemoldova">Proiecte Case MD</a></h3>
