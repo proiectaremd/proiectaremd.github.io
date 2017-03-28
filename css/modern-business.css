@@ -304,6 +304,12 @@ p.portfolio{
   line-height:20px;
 }
 
+@media all and (max-width:768px){
+  li.proiectedisplay{
+    display: none;
+  }
+}
+
 .dropdown-menu{
   font-size:16px;
   letter-spacing: 1px;
