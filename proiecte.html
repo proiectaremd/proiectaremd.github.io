@@ -11,7 +11,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Proiecte MD</title>
+    <title>Proiect MD</title>
 
 
     <!-- Bootstrap Core CSS -->
@@ -45,13 +45,13 @@
     </style>
     </head>
 
-    <body>
+    <body onload="myFunction();">
 
         <!-- affix -->
-        <div class="container featured">
+        <div class="container featured" style="background: url(images/brickwall.png)">
           <div class="row">
             <div class="col-md-4 text-center">
-              <img src="images/logo.png" alt="">
+              <a href="index.html"><img src="images/logo.png" alt=""></a>
             </div>
             <div class="col-md-4 col-md-offset-4 text-center">
               <h2><i class="fa fa-phone"><b style="color:#666666; font-family:Verdana">&nbsp 067 677 606</b></i></h2>
@@ -59,7 +59,7 @@
           </div>
         </div>
           <!-- Navigation -->
-        <nav id = "menu" class="navbar navbar-inverse navbar-fixed-width" data-spy="affix" role="navigation" data-offset-top="197">
+        <nav id = "menu" class="navbar navbar-inverse navbar-fixed-width" data-spy="affix" role="navigation" data-offset-top="197" style="z-index:100">
             <div class="container">
 
                 <div class="navbar-header">
@@ -128,6 +128,8 @@
                   <h2 class="section-heading" style="margin:45px 0 45px 0;">Proiecte</h2>
               </div>
           </div>
+          <div id="loader"></div>
+          <div style="display:none;" id="myDiv" class="animate-bottom">
           <div class="row">
               <div class="col-md-4 col-sm-6 portfolio-item">
                   <a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">
@@ -470,6 +472,17 @@
                   </div>
               </div>
           </div>
+
+          <footer>
+
+              <div class="row" >
+                  <div class="col-lg-12">
+                     <p style="text-align:center">Copyright &copy; <a href="https://www.facebook.com/bumbu.tudor">Bumbu Tudor</a></p>
+                  </div>
+              </div>
+
+          </footer>
+        </div>
       </div>
       <!-- Pagination
         <div class="row text-center">
@@ -501,6 +514,7 @@
         </div>
 row -->
   </section>
+
   <!-- Portfolio Modal 1 -->
     <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
         <div class="modal-dialog">
@@ -522,7 +536,7 @@ row -->
 
                           <div class="row">
                             <div class="col-lg-12">
-                              <div class="carousel slide article-slide" id="carousel1">
+                              <div class="carousel slide article-slide carousel-fade" id="carousel1">
 
                          <!-- Wrapper for slides -->
 
@@ -629,7 +643,7 @@ row -->
 
                           <div class="row">
                             <div class="col-lg-12">
-                              <div class="carousel slide article-slide" id="carousel2">
+                              <div class="carousel slide article-slide carousel-fade" id="carousel2">
 
                          <!-- Wrapper for slides -->
 
@@ -734,7 +748,7 @@ row -->
 
                           <div class="row">
                             <div class="col-lg-12">
-                              <div class="carousel slide article-slide" id="carousel3">
+                              <div class="carousel slide article-slide carousel-fade" id="carousel3">
 
                          <!-- Wrapper for slides -->
 
@@ -841,7 +855,7 @@ row -->
 
                                 <div class="row">
                                   <div class="col-lg-12">
-                                    <div class="carousel slide article-slide" id="carousel4">
+                                    <div class="carousel slide article-slide carousel-fade" id="carousel4">
 
                                <!-- Wrapper for slides -->
 
@@ -940,7 +954,7 @@ row -->
                                 <!-- Project Details Go Here -->
                                 <div class="row">
                                   <div class="col-lg-12">
-                                    <div class="carousel slide article-slide" id="carousel5">
+                                    <div class="carousel slide article-slide carousel-fade" id="carousel5">
 
                                <!-- Wrapper for slides -->
 
@@ -1037,7 +1051,7 @@ row -->
                                 <!-- Project Details Go Here -->
                                 <div class="row">
                                   <div class="col-lg-12">
-                                    <div class="carousel slide article-slide" id="carousel6">
+                                    <div class="carousel slide article-slide carousel-fade" id="carousel6">
 
                                <!-- Wrapper for slides -->
 
@@ -1134,7 +1148,7 @@ row -->
                                 <!-- Project Details Go Here -->
                                 <div class="row">
                                   <div class="col-lg-12">
-                                    <div class="carousel slide article-slide" id="carousel7">
+                                    <div class="carousel slide article-slide carousel-fade" id="carousel7">
 
                                <!-- Wrapper for slides -->
 
@@ -1229,7 +1243,7 @@ row -->
                                 <!-- Project Details Go Here -->
                                 <div class="row">
                                   <div class="col-lg-12">
-                                    <div class="carousel slide article-slide" id="carousel8">
+                                    <div class="carousel slide article-slide carousel-fade" id="carousel8">
 
                                <!-- Wrapper for slides -->
 
@@ -1326,7 +1340,7 @@ row -->
                                 <!-- Project Details Go Here -->
                                 <div class="row">
                                   <div class="col-lg-12">
-                                    <div class="carousel slide article-slide" id="carousel9">
+                                    <div class="carousel slide article-slide carousel-fade" id="carousel9">
 
                                <!-- Wrapper for slides -->
 
@@ -1423,7 +1437,7 @@ row -->
                                 <!-- Project Details Go Here -->
                                 <div class="row">
                                   <div class="col-lg-12">
-                                    <div class="carousel slide article-slide" id="carousel10">
+                                    <div class="carousel slide article-slide carousel-fade" id="carousel10">
 
                                <!-- Wrapper for slides -->
 
@@ -1520,7 +1534,7 @@ row -->
                                 <!-- Project Details Go Here -->
                                 <div class="row">
                                   <div class="col-lg-12">
-                                    <div class="carousel slide article-slide" id="carousel11">
+                                    <div class="carousel slide article-slide carousel-fade" id="carousel11">
 
                                <!-- Wrapper for slides -->
 
@@ -1617,7 +1631,7 @@ row -->
                                 <!-- Project Details Go Here -->
                                 <div class="row">
                                   <div class="col-lg-12">
-                                    <div class="carousel slide article-slide" id="carousel12">
+                                    <div class="carousel slide article-slide carousel-fade" id="carousel12">
 
                                <!-- Wrapper for slides -->
 
@@ -1714,7 +1728,7 @@ row -->
                                 <!-- Project Details Go Here -->
                                 <div class="row">
                                   <div class="col-lg-12">
-                                    <div class="carousel slide article-slide" id="carousel13">
+                                    <div class="carousel slide article-slide carousel-fade" id="carousel13">
 
                                <!-- Wrapper for slides -->
 
@@ -1811,7 +1825,7 @@ row -->
                                 <!-- Project Details Go Here -->
                                 <div class="row">
                                   <div class="col-lg-12">
-                                    <div class="carousel slide article-slide" id="carousel14">
+                                    <div class="carousel slide article-slide carousel-fade" id="carousel14">
 
                                <!-- Wrapper for slides -->
 
@@ -1908,7 +1922,7 @@ row -->
                                 <!-- Project Details Go Here -->
                                 <div class="row">
                                   <div class="col-lg-12">
-                                    <div class="carousel slide article-slide" id="carousel15">
+                                    <div class="carousel slide article-slide carousel-fade" id="carousel15">
 
                                <!-- Wrapper for slides -->
 
@@ -2005,7 +2019,7 @@ row -->
                                 <!-- Project Details Go Here -->
                                 <div class="row">
                                   <div class="col-lg-12">
-                                    <div class="carousel slide article-slide" id="carousel16">
+                                    <div class="carousel slide article-slide carousel-fade" id="carousel16">
 
                                <!-- Wrapper for slides -->
 
@@ -2102,7 +2116,7 @@ row -->
                                 <!-- Project Details Go Here -->
                                 <div class="row">
                                   <div class="col-lg-12">
-                                    <div class="carousel slide article-slide" id="carousel17">
+                                    <div class="carousel slide article-slide carousel-fade" id="carousel17">
 
                                <!-- Wrapper for slides -->
 
@@ -2199,7 +2213,7 @@ row -->
                                 <!-- Project Details Go Here -->
                                 <div class="row">
                                   <div class="col-lg-12">
-                                    <div class="carousel slide article-slide" id="carousel18">
+                                    <div class="carousel slide article-slide carousel-fade" id="carousel18">
 
                                <!-- Wrapper for slides -->
 
@@ -2296,7 +2310,7 @@ row -->
                                 <!-- Project Details Go Here -->
                                 <div class="row">
                                   <div class="col-lg-12">
-                                    <div class="carousel slide article-slide" id="carousel19">
+                                    <div class="carousel slide article-slide carousel-fade" id="carousel19">
 
                                <!-- Wrapper for slides -->
 
@@ -2393,7 +2407,7 @@ row -->
                                 <!-- Project Details Go Here -->
                                 <div class="row">
                                   <div class="col-lg-12">
-                                    <div class="carousel slide article-slide" id="carousel20">
+                                    <div class="carousel slide article-slide carousel-fade" id="carousel20">
 
                                <!-- Wrapper for slides -->
 
@@ -2478,16 +2492,7 @@ row -->
 
 
     <!-- Footer-->
-    <footer class="container featured" style="margin-top:0; margin-bottom:0">
 
-        <div class="row" >
-            <div class="col-lg-12">
-               <p style="text-align:center">Copyright &copy; <a href="https://www.facebook.com/bumbu.tudor">Bumbu Tudor</a></p>
-            </div>
-        </div>
-
-
-    </footer>
 
         <!-- /.row -->
 
@@ -2513,6 +2518,7 @@ row -->
     <script src="js/bootstrap.min.js"></script>
     <script src="js/zoom.js"></script>
     <script src="js/agency.min.js"></script>
+    <script src="js/mycustom.js"></script>
 
 
 </body>
