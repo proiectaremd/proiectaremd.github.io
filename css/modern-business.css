@@ -246,8 +246,11 @@ hr {
 .carousel-fade .carousel-control {
   z-index: 2;
 }
-.padding-carousel-r{
-  padding-right: 0;
+
+@media all and (min-width:992px){
+  .padding-carousel-r{
+    padding-right: 0;
+  }
 }
 
 /*
