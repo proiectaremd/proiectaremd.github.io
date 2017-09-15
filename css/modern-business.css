@@ -195,6 +195,7 @@ hr {
 
  .navbar {
       background: url(../images/inflicted.png) fixed;
+      /*background-color: #03a9f4;*/
       margin-bottom: 0;
       z-index: 9999;
       border: 0;
@@ -202,6 +203,7 @@ hr {
       font-size: 16px !important;
       line-height: 1.42857143 !important;
       border-radius: 0;
+      box-shadow: 0 10px 20px -12px rgba(0, 0, 0, 0.42), 0 3px 20px 0px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.2);
 
   }
   .navbar li a, .navbar .navbar-brand {
