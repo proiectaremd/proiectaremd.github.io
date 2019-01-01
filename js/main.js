@@ -382,5 +382,15 @@ $(document).ready(function() {
         });
     });
 
+    
+
+    $(document).ajaxStart(function(){
+        $(".gallery").hide();
+    });
+      
+    $(document).ajaxComplete(function(){
+        $(".gallery").show();
+    });
+
 });
 
